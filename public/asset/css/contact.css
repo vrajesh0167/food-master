@@ -1,0 +1,334 @@
+/*------------------------- contact_header_section --------------------------------*/
+.contact_header_section{
+    background-image: url(../img/team_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0 ;
+    @media screen and (min-width:1280px) {
+        padding: 130px 0;
+    }
+    @media screen and (min-width:1440px) {
+        padding: 150px 0;
+    }
+}
+.contact_header_section .contact_header h2{
+    font-size: 40px;
+    font-weight: bold !important;
+    font-family: 'Libre Baskerville', serif;
+    color: #274c5b;
+    margin: 20px 0;
+    @media screen and (min-width:1280px) {
+        font-size: 45px;
+    }
+    @media screen and (max-width:480px) {
+        font-size: 30px;
+    }
+}
+/*----------------------------------------- contact_section -------------------------------------------*/
+.contact_section{
+    padding: 100px 0;
+    @media screen and (min-width:1280px) {
+        padding: 120px 0;
+    }
+    @media screen and (min-width:1440px) {
+        padding: 140px 0;
+    }
+}
+
+.contact_section .contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    @media screen and (min-width:1280px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.contact_section .contact .contact_img img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.contact_section .contact .contect_details h2{
+    font-family: 'Libre Baskerville', serif;    
+    font-size: 35px;
+    font-weight: bold !important;
+    color: #37474f;
+    margin-bottom: 20px;
+    @media screen and (min-width:1280px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width:480px) {
+        font-size: 30px;
+    }
+}
+.contact_section .contact .contect_details p{
+    font-size: 18px;
+    color: #525c60;
+    margin-bottom: 16px;    
+    @media screen and (min-width:1280px) {
+        font-size: 19px;
+    }
+}
+.contact_section .contact .contact_info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    justify-items: flex-start;
+    @media screen  and (max-width:992px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media screen  and (max-width:768px) {
+        grid-template-columns: 1fr ;
+    }
+}
+.contact_section .contact .contact_info .email_contact{
+    min-width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 15px 40px 15px 15px;
+}
+.contact_section .contact .contact_info .email_contact_img {
+    width: 90px;
+    height: 90px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.contact_section .contact .contact_info .email_contact_details h4{
+    font-size: 25px;
+    color: #274c5b;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600 !important;
+    margin-bottom: 0;
+    @media screen and (min-width: 768px) {
+        font-size: 28px;
+    }
+}
+.contact_section .contact .contact_info .email_contact_details p{
+    font-size: 18px;
+    color: #525c60;
+    margin-bottom: 16px;  
+    transition: all .4s;  
+    cursor: pointer;
+    @media screen and (min-width:768px) {
+        font-size: 19px;
+    }
+}
+.contact_section .contact .contact_info .email_contact_details p:hover{
+    color: #7eb693;
+}
+
+.contact_section .contact .social_media .ico1{
+    background-color: #fde4e4;
+    color: #000;
+    width: 60px ;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.contact_section .contact .social_media .ico1:hover{
+    background-color: #e01a1a;
+    color: #fff;
+}
+
+/*----------------------------- location_section -----------------------------*/
+
+.location_section .container-fluid{
+    width: 95%;
+    margin: auto;
+    @media screen and (min-width:1920px) {
+        width: 70%;
+    }
+}
+
+.location_section .location_sec{
+    margin: 60px 0;
+    background-image: url(../img/location.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 100px 80px;
+    text-align: right;
+    @media screen and (max-width:991px) {
+        padding: 60px;
+        margin: 40px 0;
+    }
+    @media screen and (max-width:479px) {
+        padding: 10px;
+    }
+    @media screen and (min-width:1280px) {
+        padding: 80px;
+    }
+    @media screen and (min-width:1440px) {
+        padding: 120px 100px;
+    }
+}
+
+
+.location_section .location_sec .location_info{
+    background-color: #fff;
+    text-align: left;
+    display: inline-block;
+    padding: 40px 70px ;
+    border-radius: 20px;
+}
+.location_section .location_info .location_title p:first-child{
+    font-style: italic;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: #7eb693;
+    margin-bottom: 10px;
+    @media screen and (min-width:1280px) {
+        font-size: 35px;
+    }
+}
+.location_section .location_info .location_title h2{
+    font-family: 'Libre Baskerville', serif;    
+    font-size: 35px;
+    font-weight: 900 !important;
+    color: #274c5b;
+    margin-bottom: 15px;
+    @media screen and (min-width:1280px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width:480px) {
+        font-size: 30px;
+    }
+}
+.location_section .location_info .location_title p{   
+    font-size: 18px;
+    color: #525c60;
+    margin-bottom: 20px;    
+    @media screen and (min-width:1280px) {
+        font-size: 20px;
+    }
+}
+.location_section .location_info .location_add h4{
+    font-size: 23px;
+    color: #274c5b;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600 !important;
+    @media screen and (min-width: 1280px) {
+        font-size: 26px;
+    }
+}
+.location_section .location_info .location_add address{ 
+    font-size: 18px;
+    color: #525c60;
+    margin-bottom: 20px;    
+    @media screen and (min-width:1280px) {
+        font-size: 20px;
+    }
+}
+
+/*----------------------------- contact_form_section ------------------------------*/
+.contact_form_section{
+    margin: 60px 0;
+    @media screen and (max-width:992px) {
+        margin: 40px 0;
+    }
+}
+.contact_form_section .container-fluid{
+    width: 95%;
+    margin: auto;
+    @media screen and (min-width:1920px) {
+        width: 70%;
+    }
+}
+
+.contact_form_section .form_input_area{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width:768px) {
+        flex-direction: column;
+    }
+}
+.contact_form_section .form_input_area .form_input_div{
+    width: 48%;
+    margin-bottom: 40px;
+    @media screen and (max-width:768px) {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.contact_form_section .form_textarea{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.contact_form_section .form_input_div .form-label,
+.contact_form_section .form_textarea .form-label{
+    color: #274c5b;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+}
+.contact_form_section .form_input_div .form-input{
+    width: 100%;
+    height: 80px;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    border: 1px solid #fde4e4;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 20px;
+    color: #37474f;
+}
+.contact_form_section .form_input_div .form-input:focus,
+.contact_form_section .form_textarea .form-textarea:focus{
+    outline: 2px solid #e01a1a !important;
+    box-shadow: 0 0 10px #e01a1a;
+}
+.contact_form_section .form_textarea .form-textarea{
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    border: 1px solid #fde4e4;
+    padding: 30px;
+    font-style: italic;
+    font-size: 20px;
+    color: #37474f;
+}
+.contact_form_section .Sub_btn{
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #e01a1a;
+    border: 1px solid #e01a1a;
+    color: #fff;    
+    border-radius: 15px;
+    transition: all .4s;
+    @media screen and (max-width:480px) {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}
+.contact_form_section .Sub_btn:hover{
+    background-color: #fff;
+    color: #e01a1a;
+    background-position: 83%;
+    @media screen and (max-width: 576px) {
+        background-position: 88%;
+    }
+}   

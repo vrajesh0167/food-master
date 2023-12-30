@@ -1,0 +1,193 @@
+.foods_details_section .foods_details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+}
+
+.foods_details_section .foods_details .foods_imgs {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.foods_details_section .foods_imgs .item_imges .item_im_bg {
+    background-color: #f0f0f0;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.foods_details_section .foods_imgs .item_imges {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.foods_details_section .foods_imgs .item_imges img {
+    width: 70%;
+    mix-blend-mode: darken;
+}
+
+.foods_details_section .foods_imgs .product_main_img {
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.foods_details_section .foods_imgs .product_main_img img {
+    width: 80%;
+    mix-blend-mode: darken;
+}
+
+.foods_details_section .product_main_img .item_category {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: #e01a1a;
+    color: #fff;
+    padding: 5px 13px;
+    border-radius: 7px;
+}
+
+.foods_details_section .product_main_img .item_category p {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.foods_details_section .foods_details .foods_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foods_details_section .foods_details .foods_info h2 {
+    font-weight: 600;
+    color: #274c5b;
+
+    @media screen and (min-width:1280px) {
+        font-size: 35px;
+    }
+
+    @media screen and (min-width:1280px) {
+        font-size: 40px;
+    }
+}
+
+.foods_details_section .foods_details .item_price {
+    display: flex;
+    align-items: center;
+}
+
+.foods_details_section .foods_details .item_price p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #274c5b;
+    padding-right: 20px;
+
+    @media screen and (max-width:576px) {
+        font-size: 1.2rem;
+    }
+}
+
+.foods_details_section .foods_details .item_content p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #274c5b;
+
+    @media screen and (max-width:576px) {
+        font-size: 1.2rem;
+    }
+}
+
+.foods_details_section .foods_details .foods_info p span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #e01a1a;
+
+    @media screen and (max-width:576px) {
+        font-size: 1.4rem;
+    }
+}
+
+.foods_details_section .foods_details .foods_info .btn1 {
+    padding: 10px 20px;
+    background-color: #e01a1a;
+    border: 2px solid #e01a1a;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.5s;
+
+    @media screen and (max-width:480px) {
+        padding: 5px 15px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+}
+
+.foods_details_section .foods_details .foods_info .btn1:hover {
+    background-color: #fff;
+    color: #e01a1a;
+}
+
+
+.foods_details_section .tab .tabs {
+    padding: 12px 22px;
+    background-color: #fff;
+    color: #e01a1a;
+    border: 2px solid #e01a1a;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.foods_details_section .tab .tabs:hover ,
+.foods_details_section .tab .tabs_active {
+    background-color: #e01a1a;
+    color: #fff;
+}
+.foods_details_section .tab_content p {
+    font-family: 'Lusitana', serif;
+    font-size: 20px;
+}
+
+/* review content (comment) */
+.foods_details_section .tab_form .review{
+    width: 70%;
+}
+.foods_details_section .tab_form .review_img{
+    margin-right: 20px;
+}
+.foods_details_section .tab_form .review_img img{
+    width: 80px;
+    border-radius: 10px;
+}
+.foods_details_section .tab_form .review_content h5{
+    margin: 0;
+    color: #274c5b;
+}
+.foods_details_section .tab_form .review_content h5{
+    margin: 0;
+    color: #274c5b;
+}
+.foods_details_section .tab_form .review_content p{
+    font-size: 18px;
+    font-family: 'Lusitana', serif;
+}
+/* comment 2 replay 1 */
+.foods_details_section .tab_form .review2_reply_one{
+    padding-left: 20px;
+}

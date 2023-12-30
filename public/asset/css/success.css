@@ -1,0 +1,23 @@
+.success_cart{
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.14);
+    width: 100%;
+    align-self: center;
+}
+.success_cart .seccess_ico{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border: 1px solid #e01a1a;
+    border-radius: 100%;
+    background-color: #e01a1a;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success_cart h1{
+    color: #274c5b;
+}

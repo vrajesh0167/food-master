@@ -1,0 +1,27 @@
+.tilepage_section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url(../img/banner-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    @media screen and (min-width:992px) {
+        padding: 110px 0;
+    }
+    @media screen and (min-width:1280px) {
+        padding: 120px 0;
+    }
+    @media screen and (min-width:1440px) {
+        padding: 140px 0;
+    }
+}
+.tilepage_section .tilepage_head h2{
+    font-size: 2rem;
+    color: #fff;
+    @media screen and (min-width:1280px) {
+        font-size: 2.2rem;
+    }
+    @media screen and (min-width:1440px) {
+        font-size: 2.4rem;
+    }
+    
+}

@@ -1,0 +1,86 @@
+.footer_section {
+    padding-bottom: 30px;
+    background: #fde4e4;
+    color: #37474f;
+}
+
+.footer_section .footer_logo img{
+    width: calc(100% - 80%);
+    margin-bottom: 5px;
+}
+.footer_section .footer_logo figcaption{
+    font-weight: 700;
+    font-size: 19px;
+    color: #37474f;
+}
+.footer_section .footer_logo p{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #37474f;
+}
+
+.footer_section .delivery_time{
+    background-color: transparent !important;
+}
+.footer_section .delivery_time span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #37474f;
+}
+.footer_section .delivery_time p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #37474f;
+}
+.footer_section .delivery_time address{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: #37474f;
+}
+.footer_section .newsletter{
+    border: 1px solid #37474f;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_section .newsletter input{
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+}
+.footer_section .newsletter input:focus{
+    outline: none;
+}
+.footer_section .newsletter span{
+    background-color: #e01a1a;
+    padding: 6px 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.footer_section .newsletter span:hover{
+    box-shadow: 0 0 10px #d34040;
+}
+.footer_section .social_link span i{
+    padding: 10px 10px;
+    background-color: #e01a1a;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.footer_section .copyright_text{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #37474f;
+}
+.footer_section .copyright_text span{
+    color: #e01a1a;
+    font-family: "RocknRoll One", sans-serif !important;
+}

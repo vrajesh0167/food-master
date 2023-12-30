@@ -1,0 +1,100 @@
+.register_section .register_head h3{
+    color: #274c5b;
+    font-weight: 600;
+    margin: 3px;
+}
+.register_section .register_head .data_save_btn{
+    padding: 15px 23px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #e01a1a;
+    border: 1px solid #e01a1a;
+    color: #fff;
+    border-radius: 15px;
+    transition: all .4s;
+
+    @media screen and (max-width:480px) {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}   
+.register_section .register_head .data_save_btn:hover{
+    background-color: #fff;
+    color: #e01a1a;
+    background-position: 83%;
+    @media screen and (max-width: 576px) {
+        background-position: 88%;
+    }
+}
+
+
+.register_section .register_form {
+    margin-top: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.14);
+    padding: 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: auto;
+    justify-items: flex-start;
+}       
+.register_section .register_form .register_img {
+    display: flex;
+    flex-direction: column;
+}       
+.register_section .register_form .register_img img {
+    width: auto;
+    margin-bottom: 20px;
+}       
+.register_section .register_form .register_img h3 {
+    color: #274c5b;
+    font-weight: bold;
+}      
+
+.register_section .register_form .user_info  {
+    width: 70%;
+}       
+.register_section .register_form .user_info .input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}       
+.register_section .register_form .input-container .input_label{
+    color: #33515d;
+    font-size: 20px;
+    font-family: 'Lusitana', serif;
+    font-weight: 500;
+}      
+.register_section .register_form .input-container .input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #c4c4c4;
+    padding: 0 20px;
+    color: #33515d;
+    margin: 12px 0;
+    font-size: 18px;
+    font-style: italic;
+}       
+.register_section .register_form .input-container .input::-webkit-outer-spin-button,
+.register_section .register_form .input-container .input::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}   
+.register_section .register_form .input-container .input:focus{
+    outline: none;
+    border: 1px solid #e01a1a;
+    box-shadow: 0 0 20px #6064701a;
+}      
+.register_section .register_form .login_link h5{
+    color: #274c5b;
+}      
+.register_section .register_form .login_link h5 a{
+    color: #e01a1a;
+    text-decoration: none;
+    transition: all 0.4s;
+}      
+.register_section .register_form .login_link h5 a:hover{
+    text-decoration: underline;
+}      
+
+

@@ -1,0 +1,68 @@
+.all_foods_section .all_foods{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-column-gap: 50%;
+    @media screen and (max-width:768px) {
+        grid-column-gap: 30%;
+    }
+    @media screen and (max-width:480px) {
+        grid-column-gap: 10%;
+    }
+}
+.all_foods_section .foods_search input,
+.all_foods_section .item_select select{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #37474f;
+}
+.all_foods_section .foods_search .search_ico{
+    position: absolute;
+    top: 23%;
+    right: 5%;
+}
+.all_foods_section .foods_search input:focus,
+.all_foods_section .item_select select:focus{
+    outline: none;
+    border: 1px solid #37474f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+/*========= pagination ============*/
+.item_pagination{
+    margin: 5% 0;
+}
+.pagination {
+    justify-content: center;
+}
+.item_pagination ul li.previous a,
+.item_pagination ul li.next a{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #e01a1a;
+    color: #fff !important;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.item_pagination ul li a{
+    padding: 10px 15px;
+    border: 2px solid #e01a1a;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #e01a1a !important;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+.item_pagination ul li a:hover{
+    background-color: #e01a1a;
+    color: #fff !important;
+}
+.item_pagination ul li.selected a{
+    background-color: #e01a1a;
+    color: #fff !important;
+}
