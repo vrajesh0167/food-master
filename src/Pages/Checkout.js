@@ -182,7 +182,7 @@ export default function Checkout() {
                                             Payment
                                         </button>
                                         <Link to={'/pdf'}>
-                                            <button type="submit" className="payment_btn" onClick={generatePDF}>
+                                            <button type="submit" className="payment_btn">
                                                 Dowload PDF
                                             </button>
                                         </Link>
