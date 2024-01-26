@@ -9,6 +9,7 @@ import Checkout from '../Pages/Checkout'
 import Login from '../Pages/Login'
 import Register from '../Pages/Register'
 import Contact from '../Pages/Contact'
+import PDF from '../Component/PDF'
 
 export default function Routers() {
     return (    
@@ -24,6 +25,7 @@ export default function Routers() {
                     <Route path='/login' element={<Login></Login>}></Route>
                     <Route path='/register' element={<Register></Register>}></Route>
                     <Route path='/contact' element={<Contact></Contact>}></Route>
+                    <Route path='/pdf' element={<PDF></PDF>}></Route>
                 </Routes>
             
         </div>

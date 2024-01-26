@@ -38,8 +38,8 @@ export default function CartItem({item}) {
           <div className='carts_items_info d-flex'>
             <img src={image01} alt="" />
           
-            <div className=' carts_product_info'>
-              <h3>{title}</h3>
+            <div className=' carts_product_info ms-5'>
+              <h5>{title}</h5>
               <p className=' d-flex gap-4 align-items-center mb-2'><span>₹{totalPrice}</span> x {quantity}</p>
               
               <div className=' increment_decremet d-flex align-items-center justify-content-between'>

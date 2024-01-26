@@ -13,21 +13,35 @@ import review4 from '../images/comm4.jpg'
 import review5 from '../images/comm5.jpg'
 import review6 from '../images/comm6.jpg'
 import Product from '../Category/Product'
+import { useDispatch } from 'react-redux'
+import { cartAction } from '../Store/ShoppingCart/CartSlice'
 
 export default function Fooddetails() {
 
-    const [tab, setTab] = useState('desc')
+    const [tab, setTab] = useState('desc');
+    const dispatch = useDispatch();
 
     const { id } = useParams();
     const product_item = products.find(product => product.id === id);
     const [itemImg, setItemImg] = useState(product_item.image01)
 
-    const { title, old_price, price, desc, category } = product_item;
+    const { title, old_price, price, desc, category, cgst, sgst,image01 } = product_item;
 
     useEffect(() => {
         setItemImg(product_item.image01);
         window.scrollTo(0, 0)
     }, [product_item]);
+
+    const addToCart = () => {
+        dispatch(cartAction.additem({
+            id,
+            title,
+            price,
+            image01,
+            cgst,
+            sgst
+        }))
+    }
 
     const relatedProduct = products.filter(item => item.category === category)
     return (
@@ -67,7 +81,7 @@ export default function Fooddetails() {
                                     <p>{desc}</p>
                                 </div>
 
-                                <button className='btn1'>Add To Cart</button>
+                                <button className='btn1' onClick={addToCart}>Add To Cart</button>
                             </div>
                         </div>
                     </div>
